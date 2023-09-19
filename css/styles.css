@@ -14,6 +14,10 @@ body{
     font-size: 16px;
 }
 
+img{
+    display: block;
+}
+
 a {
     text-decoration: none;
 }
@@ -22,8 +26,49 @@ ul{
     list-style-type: none;
 }
 
+.container{
+    max-width: 1752px;
+    margin:0 auto;
+    padding:0 156px;
+}
+/* END Base*/
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* Header */
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:24px;
+}
+
+.header-nav{
+    display: flex;
+    gap: 76px;
+    flex-grow: 1;
+}
+
+.header-contacts {
+    display:flex;
+    gap: 40px;
+}
+
 .logo{
+    display: flex;
+    align-items: center;
     font-family: 'Raleway',sans-serif;
     color:var(--c-logo);
     font-size: 18px;
@@ -39,7 +84,16 @@ ul{
 
 }
 
+.nav-list {
+    display: flex;
+    gap: 40px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
 .nav-link{
+    display: inline-block;
+    padding: 25.5px;
     color:var(--c-primary);
     font-size: 16px;
     font-weight: 500;
@@ -69,10 +123,12 @@ ul{
 
 /* Hero section*/
 .hero-section{
+    padding:188px 472px;
     background-color: var(--c-primary);
 
 }
 .hero-title{
+    max-width: 496px;
     color: var(--c-primary-light);
     font-family: Roboto;
     font-size: 56px;
@@ -80,6 +136,7 @@ ul{
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 48px;
 }
 .button{
     color:var(--c-primary-light) ;
@@ -97,6 +154,10 @@ ul{
 }
 
 /* Advantages section*/
+.advantage-section{
+    padding:120px 156px;
+}
+
 .advantage-title{
     color: var(--c-primary);
     font-size: 20px;
@@ -114,6 +175,7 @@ ul{
 
 /* Team section*/
 .team-section{
+    padding: 120px 156px;
     background-color: var(--c-background-light);
 }
 .team-job {
@@ -144,6 +206,9 @@ ul{
 
 /* Portfolio section */
 .portfolio-section{
+    padding: 120px 156px;
+}
+.portfolio-heading{
     text-transform: capitalize;
 }
 .portfolio-title{
