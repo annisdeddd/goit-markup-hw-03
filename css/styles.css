@@ -234,11 +234,22 @@ ul{
 
 /* Portfolio section */
 .portfolio-section{
-    padding: 120px 156px;
+    padding: 120px 0;
 }
+
+.portfolio-list{
+    display:flex;
+    gap: 24px;
+}
+
 .portfolio-heading{
     text-transform: capitalize;
 }
+
+.portfolio-description{
+    padding: 32px 0;
+}
+
 .portfolio-title{
     color: var(--c-primary);
     font-size: 20px;
