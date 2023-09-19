@@ -123,7 +123,7 @@ ul{
 
 /* Hero section*/
 .hero-section{
-    padding:188px 472px;
+    padding:188px 0;
     background-color: var(--c-primary);
 
 }
@@ -139,6 +139,12 @@ ul{
     margin-bottom: 48px;
 }
 .button{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
     color:var(--c-primary-light) ;
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
