@@ -227,10 +227,15 @@ ul{
 }
 
 /* Footer */
+.footer-container{
+    padding: 100px 0;
+}
+
 .footer-section{
     background-color: var(--c-primary);
 }
 .logo-footer {
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     color: var(--c-logo);
     font-size: 18px;
@@ -238,11 +243,13 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 .f-logo-accent{
     color:var(--c-background-light) ;
 }
 .footer-text{
+    max-width: 264px;
     color: var(--c-background-light);
     line-height: 1.5;
     letter-spacing: 0.02em;
