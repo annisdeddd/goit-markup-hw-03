@@ -191,9 +191,15 @@ ul{
 
 /* Team section*/
 .team-section{
-    padding: 120px 156px;
+    padding: 120px 0px;
     background-color: var(--c-background-light);
 }
+
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+
 .team-job {
     background-color: var(--c-primary-light);
 }
@@ -204,6 +210,12 @@ ul{
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.worker{
+    padding: 32px 0;
+    text-align: center;
 }
 .name-title{
     color: var(--c-primary);
