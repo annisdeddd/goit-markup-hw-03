@@ -163,7 +163,7 @@ ul{
 
 /* Advantages section*/
 .advantage-section{
-    padding:120px 156px;
+    padding:120px 0px;
 }
 
 .advantage-list{
@@ -178,8 +178,10 @@ ul{
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .advantage-text{
+
     color: var(--c-text);
     font-size: 16px;
     font-weight: 400;
