@@ -59,6 +59,7 @@ ul{
 
 .header-nav{
     display: flex;
+    align-items: center;
     gap: 76px;
     flex-grow: 1;
 }
@@ -78,6 +79,7 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 
 }
 
@@ -216,7 +218,6 @@ ul{
 .worker{
     padding: 32px 0;
     text-align: center;
-    margin-bottom: 8px;
 }
 .name-title{
     color: var(--c-primary);
@@ -225,6 +226,7 @@ ul{
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 8px;
 }
 .job-title{
     color: var(--c-text);
