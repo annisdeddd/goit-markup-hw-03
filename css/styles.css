@@ -27,6 +27,7 @@ ul{
 }
 
 .container{
+    display: flex;
     max-width: 1752px;
     margin:0 auto;
     padding:0 156px;
@@ -53,6 +54,7 @@ ul{
     align-items: center;
     justify-content: space-between;
     gap:24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav{
@@ -164,10 +166,9 @@ ul{
     padding:120px 156px;
 }
 
-advantage-list{
+.advantage-list{
     display: flex;
     gap: 24px;
-    width: calc((100%-3*24px)/4);
 }
 
 .advantage-title{
