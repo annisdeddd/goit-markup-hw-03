@@ -240,12 +240,9 @@ advantage-list{
 }
 
 /* Footer */
-.footer-container{
-    padding: 100px 0;
-}
-
 .footer-section{
     background-color: var(--c-primary);
+    padding: 100px 0;
 }
 .logo-footer {
     display: inline-block;
