@@ -96,16 +96,15 @@ ul{
 
 .nav-list {
     display: flex;
-    align-items: center\;
+    align-items: center;
     gap: 40px;
     flex-grow: 1;
     justify-content: center;
-    padding:24px 0;
 }
 
 .nav-link{
     display: inline-block;
-    padding: 25.5px;
+    padding: 24px 0;
     color:var(--c-primary);
     font-size: 16px;
     font-weight: 500;
@@ -117,9 +116,15 @@ ul{
     color: var(--c-brand);
 }
 
-.contact{
+.address{
     font-style: normal;
 }
+
+.contacts{
+    display: flex;
+    gap:40px; 
+}
+
 .add-contact{ 
     color: var(--c-text);   
     font-family: 'Roboto',sans-serif;
