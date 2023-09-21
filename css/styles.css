@@ -200,7 +200,6 @@ ul{
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .advantage-text{
     color: var(--c-text);
