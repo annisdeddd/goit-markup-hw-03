@@ -181,6 +181,10 @@ ul{
     gap: 24px;
 }
 
+.advantage-list .advantage-title{
+    width calc((100% - 3 * 24px) / 4)
+}
+
 .advantage-title{
     color: var(--c-primary);
     font-size: 20px;
