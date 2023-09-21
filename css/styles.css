@@ -258,17 +258,19 @@ ul{
     padding: 120px 0;
 }
 
-.portfolio-list{
-    display:flex;
+.portfolio-heading{
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.portfolio-list {
+    display: flex;
     gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px;
 }
 
-.portfolio-heading{
-    text-transform: capitalize;
-    margin-bottom: 72px;
-}
+
 
 .portfolio-description{
     padding: 32px 16px;
@@ -298,6 +300,7 @@ ul{
     padding: 100px 0;
 }
 .logo-footer {
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     color: var(--c-logo);
     font-size: 18px;
@@ -308,9 +311,6 @@ ul{
     margin-bottom: 16px;
 }
 
-.logo-footer a{
-    display: inline-block;
-}
 .f-logo-accent{
     color:var(--c-background-light) ;
 }
