@@ -29,8 +29,9 @@ ul{
 
 .container{
     max-width: 1752px;
+    width: 1158px;
     margin:0 auto;
-    padding:0 156px;
+    padding: 0 15px;
 }
 /* END Base*/
 
@@ -189,7 +190,7 @@ ul{
 }
 
 .advantage-category:first-child{
-    width: calc((100% - 72px)/4);
+    width: calc((100%-72px)/4);
 }
 
 .advantage-title{
