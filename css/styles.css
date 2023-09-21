@@ -189,7 +189,7 @@ ul{
 }
 
 .advantage-category:first-child{
-    width: calc((100% - 72px) 4);
+    width: calc((100% - 72px)/4);
 }
 
 .advantage-title{
@@ -202,7 +202,6 @@ ul{
     flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .advantage-text{
-
     color: var(--c-text);
     font-size: 16px;
     font-weight: 400;
