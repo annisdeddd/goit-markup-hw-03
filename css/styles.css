@@ -25,11 +25,11 @@ a {
 
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .container{
-    display: flex;
-    max-width: 1752px;
     width: 1158px;
     margin:0 auto;
     padding: 0 15px;
@@ -58,17 +58,11 @@ ul{
 .header-inner{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap:24px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .header-nav{
     display: flex;
-    width: 1158px;
     align-items: center;
-    gap: 76px;
     flex-grow: 1;
 }
 
@@ -100,7 +94,6 @@ ul{
     display: flex;
     align-items: center;
     gap: 40px;
-    flex-grow: 1;
     justify-content: center;
 }
 
@@ -120,6 +113,7 @@ ul{
 
 .address{
     font-style: normal;
+    margin-left: auto;
 }
 
 .contacts{
@@ -186,12 +180,10 @@ ul{
 .advantage-list{
     display: flex;
     gap: 24px;
-    padding:0;
-    margin:0;
 }
 
-.advantage-category:first-child{
-    width:calc((100%-72px)/4);
+.advantage-category{
+    width:calc((100% - 72px)/4);
 }
 
 .advantage-title{
